@@ -67,14 +67,6 @@
                                     <action selector="h6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3ca-Z7-gEJ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="usJ-4Q-QO7">
-                                <rect key="frame" x="144" y="230" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="8"/>
-                                <connections>
-                                    <action selector="h8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PpM-CJ-fLK"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kJM-L6-bfh">
                                 <rect key="frame" x="224" y="230" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -148,15 +140,31 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6NU-Xb-r83">
-                                <rect key="frame" x="137" y="397" width="46" height="30"/>
+                                <rect key="frame" x="224" y="397" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="="/>
                                 <connections>
                                     <action selector="hdengyu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8f8-Oc-Rty"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="j72-CV-lSG">
+                                <rect key="frame" x="137" y="397" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="％"/>
+                                <connections>
+                                    <action selector="hbaifenhao:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uEP-0H-ti3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="usJ-4Q-QO7">
+                                <rect key="frame" x="134" y="230" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="8"/>
+                                <connections>
+                                    <action selector="h8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PpM-CJ-fLK"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.96948326679010211" green="1" blue="0.79487465698342497" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <outlet property="x" destination="Kf4-wd-T19" id="KGZ-od-kvR"/>
@@ -164,7 +172,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="162" y="396"/>
+            <point key="canvasLocation" x="166" y="249"/>
         </scene>
     </scenes>
 </document>

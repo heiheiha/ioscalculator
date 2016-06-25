@@ -10,7 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
+    var flag:Int=0
+    var ha:Double=0
+    var hb:Double=0
+    var hc:Double=0
+    var judgepoint:Bool=false;
     @IBOutlet weak var x: UITextField!
     @IBAction func h1(sender: AnyObject) {
        if x.text!.isEmpty
@@ -117,18 +121,112 @@ class ViewController: UIViewController {
         }
     }
     @IBAction func hjia(sender: AnyObject) {
+        ha=((x.text)! as NSString).doubleValue;
+        x.text="";
+        flag=1;
+        judgepoint=false;
     }
     @IBAction func hjian(sender: AnyObject) {
+        ha=((x.text)! as NSString).doubleValue;
+        x.text="";
+        flag=2;
+        judgepoint=false;
     }
     @IBAction func hchen(sender: AnyObject) {
+        ha=((x.text)! as NSString).doubleValue;
+        x.text="";
+        flag=2;
+        judgepoint=false;
     }
     @IBAction func hchu(sender: AnyObject) {
+        ha=((x.text)! as NSString).doubleValue;
+        x.text="";
+        flag=4;
+        judgepoint=false;
     }
     @IBAction func hdengyu(sender: AnyObject) {
-    }
-    @IBAction func hguiling(sender: AnyObject) {
+        var m:Int=0;
+        hb=((x.text)! as NSString).doubleValue;
+        switch(flag)
+        {
+        case 1:
+            
+            hc=ha+hb;
+            if(hc%1==0)
+            {
+                m=Int(hc);
+                x.text="\(m)"
+            }
+            else
+            {
+                x.text="\(hc)"
+            }
+            judgepoint=true;
+            break;
+        case 2:
+            
+            hc=ha-hb;
+            if(hc%1==0)
+            {
+                m=Int(hc);
+                x.text="\(m)"
+            }
+            else
+            {
+                x.text="\(hc)"
+            }
+            judgepoint=true;
+            break;
+        case 3:
+            
+            hc=ha*hb;
+            if(hc%1==0)
+            {
+                m=Int(hc);
+                x.text="\(m)"
+            }
+            else
+            {
+                x.text="\(hc)"
+            }
+            judgepoint=true;
+            break;
+        case 4:
+            if(hb==0)
+            {
+                x.text="错误"
+            }
+            else
+            {
+                hc=ha/hb;
+                if(hc%1==0)
+                {
+                    m=Int(hc);
+                    x.text="\(m)"
+                }
+                else
+                {
+                    x.text="\(hc)"
+                }
+            }
+            judgepoint=true;
+            break;
+        default:
+            break;
+            
+        }
     }
     
+
+    @IBAction func hguiling(sender: AnyObject) {
+        x.text="0";
+        ha=0;
+        hb=0;
+        hc=0;
+        judgepoint=false
+    }
+    @IBAction func hbaifenhao(sender: AnyObject) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
