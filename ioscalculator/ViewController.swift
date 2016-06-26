@@ -111,14 +111,12 @@ class ViewController: UIViewController {
         }
     }
     @IBAction func hdian(sender: AnyObject) {
-        if x.text!.isEmpty
+        if(judgepoint==false)
         {
-            x.text="."
+            x.text=(x.text)!+".";
+            judgepoint=true
         }
-        else{
-            x.text=x.text!+"."
-            
-        }
+
     }
     @IBAction func hjia(sender: AnyObject) {
         ha=((x.text)! as NSString).doubleValue;
@@ -213,7 +211,6 @@ class ViewController: UIViewController {
             break;
         default:
             break;
-            
         }
     }
     
@@ -225,8 +222,24 @@ class ViewController: UIViewController {
         hc=0;
         judgepoint=false
     }
-    @IBAction func hbaifenhao(sender: AnyObject) {
+    @IBAction func hbaifenhao(sender:AnyObject){
+        var percent:Double=0;
+        var percent1:Double=0;
+        var percent2:Int=0;
+        percent=((x.text)! as NSString).doubleValue;
+        percent1=percent/100;
+        if(percent1%1==0)
+        {
+            percent2=Int(percent1);
+            x.text="\(percent2)";
+        }
+        else
+        {
+            x.text="\(percent1)";
+            
+        }
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

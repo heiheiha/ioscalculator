@@ -13,7 +13,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" id="Kf4-wd-T19">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hl.jpg" id="J6p-Pd-G7t">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="right" minimumFontSize="17" id="Kf4-wd-T19">
                                 <rect key="frame" x="45" y="40" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -22,7 +26,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2m7-CR-1zm">
                                 <rect key="frame" x="45" y="113" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="1"/>
+                                <state key="normal" title="1">
+                                    <color key="titleColor" red="1" green="0.79465140690115832" blue="0.084660111142024097" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="h1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RsX-5c-yes"/>
                                 </connections>
@@ -30,7 +36,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hWW-aG-Hdf">
                                 <rect key="frame" x="134" y="113" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="2"/>
+                                <state key="normal" title="2">
+                                    <color key="titleColor" red="1" green="0.78244416143057094" blue="0.081219730665815337" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="h2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="39R-YG-4Sz"/>
                                 </connections>
@@ -38,7 +46,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YaG-vC-tzb">
                                 <rect key="frame" x="224" y="113" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="3"/>
+                                <state key="normal" title="3">
+                                    <color key="titleColor" red="1" green="0.78559741291751317" blue="0.10132081577499541" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="h3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MtF-Vg-jkt"/>
                                 </connections>
@@ -46,7 +56,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xKp-ca-3og">
                                 <rect key="frame" x="45" y="170" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="4"/>
+                                <state key="normal" title="4">
+                                    <color key="titleColor" red="1" green="0.79388516023778455" blue="0.096007180071045917" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="h4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h8s-fX-VJh"/>
                                 </connections>
@@ -54,7 +66,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3TT-tK-y38">
                                 <rect key="frame" x="134" y="170" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="5"/>
+                                <state key="normal" title="5">
+                                    <color key="titleColor" red="1" green="0.79424354151450072" blue="0.090858978966845583" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="h5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WPR-EC-6iN"/>
                                 </connections>
@@ -62,7 +76,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bzL-YY-2As">
                                 <rect key="frame" x="224" y="170" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="6"/>
+                                <state key="normal" title="6">
+                                    <color key="titleColor" red="1" green="0.80563043821421088" blue="0.11495573718597363" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="h6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3ca-Z7-gEJ"/>
                                 </connections>
@@ -70,7 +86,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kJM-L6-bfh">
                                 <rect key="frame" x="224" y="230" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="9"/>
+                                <state key="normal" title="9">
+                                    <color key="titleColor" red="1" green="0.81196288487867441" blue="0.13177143849834649" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="h9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NiN-bX-ACh"/>
                                 </connections>
@@ -78,7 +96,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4Sd-Ku-70m">
                                 <rect key="frame" x="224" y="339" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="*"/>
+                                <state key="normal" title="*">
+                                    <color key="titleColor" red="1" green="0.80343780589830882" blue="0.14828781979217964" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="hchen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MQg-jv-RK7"/>
                                 </connections>
@@ -86,7 +106,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="a9w-6Y-MWO">
                                 <rect key="frame" x="134" y="285" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="0"/>
+                                <state key="normal" title="0">
+                                    <color key="titleColor" red="1" green="0.87107840786963442" blue="0.17490033427581686" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="h0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hcl-Uf-crb"/>
                                 </connections>
@@ -94,7 +116,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hmw-1Y-hFt">
                                 <rect key="frame" x="45" y="397" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="/"/>
+                                <state key="normal" title="/">
+                                    <color key="titleColor" red="1" green="0.95035474232622041" blue="0.051866106726242034" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="hchu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ewK-F8-GYc"/>
                                 </connections>
@@ -102,7 +126,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xns-Gx-Yup">
                                 <rect key="frame" x="45" y="285" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="c"/>
+                                <state key="normal" title="c">
+                                    <color key="titleColor" red="1" green="0.87050962680813559" blue="0.074998073429272338" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="hguiling:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jug-wN-Ru7"/>
                                 </connections>
@@ -110,7 +136,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="si9-Tm-202">
                                 <rect key="frame" x="134" y="339" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="-"/>
+                                <state key="normal" title="-">
+                                    <color key="titleColor" red="1" green="0.76514707715125385" blue="0.085887236929843902" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="hjian:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WBr-Fc-1SQ"/>
                                 </connections>
@@ -118,7 +146,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dg2-H7-FQM">
                                 <rect key="frame" x="45" y="339" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="+"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" red="1" green="0.91775108833110342" blue="0.07565285734295546" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="hjia:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ex6-f1-gbl"/>
                                 </connections>
@@ -126,7 +156,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="It4-dt-Ou1">
                                 <rect key="frame" x="224" y="285" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="."/>
+                                <state key="normal" title=".">
+                                    <color key="titleColor" red="1" green="0.81669254840126182" blue="0.17974506591900474" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="hdian:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HLs-Sm-L82"/>
                                 </connections>
@@ -134,7 +166,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vHN-Gd-Nra">
                                 <rect key="frame" x="45" y="230" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="7"/>
+                                <state key="normal" title="7">
+                                    <color key="titleColor" red="1" green="0.79837402932983537" blue="0.1093097658992529" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="h7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iEa-Iq-XHI"/>
                                 </connections>
@@ -142,7 +176,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6NU-Xb-r83">
                                 <rect key="frame" x="224" y="397" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="="/>
+                                <state key="normal" title="=">
+                                    <color key="titleColor" red="1" green="0.83911414776795268" blue="0.10608139002673955" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="hdengyu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8f8-Oc-Rty"/>
                                 </connections>
@@ -150,7 +186,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="j72-CV-lSG">
                                 <rect key="frame" x="137" y="397" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="％"/>
+                                <state key="normal" title="％">
+                                    <color key="titleColor" red="1" green="0.83687591338886302" blue="0.11020643675065334" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="hbaifenhao:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uEP-0H-ti3"/>
                                 </connections>
@@ -158,7 +196,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="usJ-4Q-QO7">
                                 <rect key="frame" x="134" y="230" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="8"/>
+                                <state key="normal" title="8">
+                                    <color key="titleColor" red="1" green="0.84684156764029273" blue="0.15584872280988049" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="h8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PpM-CJ-fLK"/>
                                 </connections>
@@ -172,7 +212,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="166" y="249"/>
+            <point key="canvasLocation" x="46" y="285"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="hl.jpg" width="371" height="517"/>
+    </resources>
 </document>

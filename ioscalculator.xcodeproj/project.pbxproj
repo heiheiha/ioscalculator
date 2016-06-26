@@ -14,6 +14,7 @@
 		CF1E004B1D1A970B00237F84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1E00491D1A970B00237F84 /* LaunchScreen.storyboard */; };
 		CF1E00561D1A970B00237F84 /* ioscalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1E00551D1A970B00237F84 /* ioscalculatorTests.swift */; };
 		CF1E00611D1A970B00237F84 /* ioscalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1E00601D1A970B00237F84 /* ioscalculatorUITests.swift */; };
+		CF69FD411D1FF5B600FC1FD5 /* hl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF69FD401D1FF5B600FC1FD5 /* hl.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CF1E005C1D1A970B00237F84 /* ioscalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ioscalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF1E00601D1A970B00237F84 /* ioscalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ioscalculatorUITests.swift; sourceTree = "<group>"; };
 		CF1E00621D1A970B00237F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF69FD401D1FF5B600FC1FD5 /* hl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hl.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		CF1E003F1D1A970B00237F84 /* ioscalculator */ = {
 			isa = PBXGroup;
 			children = (
+				CF69FD401D1FF5B600FC1FD5 /* hl.jpg */,
 				CF1E00401D1A970B00237F84 /* AppDelegate.swift */,
 				CF1E00421D1A970B00237F84 /* ViewController.swift */,
 				CF1E00441D1A970B00237F84 /* Main.storyboard */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF1E004B1D1A970B00237F84 /* LaunchScreen.storyboard in Resources */,
+				CF69FD411D1FF5B600FC1FD5 /* hl.jpg in Resources */,
 				CF1E00481D1A970B00237F84 /* Assets.xcassets in Resources */,
 				CF1E00461D1A970B00237F84 /* Main.storyboard in Resources */,
 			);
@@ -484,6 +488,7 @@
 				CF1E00671D1A970B00237F84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF1E00681D1A970B00237F84 /* Build configuration list for PBXNativeTarget "ioscalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				CF1E006A1D1A970B00237F84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF1E006B1D1A970B00237F84 /* Build configuration list for PBXNativeTarget "ioscalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				CF1E006D1D1A970B00237F84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
