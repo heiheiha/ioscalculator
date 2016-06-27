@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     var ha:Double=0
     var hb:Double=0
     var hc:Double=0
-    var judgepoint:Bool=false;
+    var judgepoint:Bool=false
     @IBOutlet weak var x: UITextField!
     @IBAction func h1(sender: AnyObject) {
        if x.text!.isEmpty
@@ -23,7 +23,6 @@ class ViewController: UIViewController {
         }
         else{
             x.text=x.text!+"1"
-            
         }
         
     }
@@ -31,84 +30,27 @@ class ViewController: UIViewController {
         x.text=x.text!+"2"
     }
     @IBAction func h3(sender: AnyObject) {
-        if x.text!.isEmpty
-        {
-            x.text="3"
-        }
-        else{
-            x.text=x.text!+"3"
-            
-        }
+       x.text=x.text!+"3"
     }
     @IBAction func h4(sender: AnyObject) {
-        if x.text!.isEmpty
-        {
-            x.text="4"
-        }
-        else{
-            x.text=x.text!+"4"
-            
-        }
+        x.text=x.text!+"4"
     }
     @IBAction func h5(sender: AnyObject) {
-        if x.text!.isEmpty
-        {
-            x.text="5"
-        }
-        else{
-            x.text=x.text!+"5"
-            
-        }
+        x.text=x.text!+"5"
     }
     @IBAction func h6(sender: AnyObject) {
-        if x.text!.isEmpty
-        {
-            x.text="6"
-        }
-        else{
-            x.text=x.text!+"6"
-            
-        }
+        x.text=x.text!+"6"
     }
     @IBAction func h7(sender: AnyObject) {
-        if x.text!.isEmpty
-        {
-            x.text="7"
-        }
-        else{
-            x.text=x.text!+"7"
-            
-        }
+        x.text=x.text!+"7"
     }
     @IBAction func h8(sender: AnyObject) {
-        if x.text!.isEmpty
-        {
-            x.text="8"
-        }
-        else{
-            x.text=x.text!+"8"
-            
-        }
-    }
+        x.text=x.text!+"8"    }
     @IBAction func h9(sender: AnyObject) {
-        if x.text!.isEmpty
-        {
-            x.text="9"
-        }
-        else{
-            x.text=x.text!+"9"
-            
-        }
+        x.text=x.text!+"9"
     }
     @IBAction func h0(sender: AnyObject) {
-        if x.text!.isEmpty
-        {
-            x.text="0"
-        }
-        else{
-            x.text=x.text!+"0"
-            
-        }
+        x.text=x.text!+"0"
     }
     @IBAction func hdian(sender: AnyObject) {
         if(judgepoint==false)
@@ -133,7 +75,7 @@ class ViewController: UIViewController {
     @IBAction func hchen(sender: AnyObject) {
         ha=((x.text)! as NSString).doubleValue;
         x.text="";
-        flag=2;
+        flag=3;
         judgepoint=false;
     }
     @IBAction func hchu(sender: AnyObject) {
@@ -215,6 +157,26 @@ class ViewController: UIViewController {
     }
     
 
+    @IBAction func hzhengfuhao(sender: AnyObject) {
+        hc=(-1)*(Double)(x.text!)!
+        x.text="\(hc)"
+    }
+
+    @IBAction func htuige(sender: AnyObject) {
+        var hd=x.text!
+        if(hd != ""){
+            hd.removeAtIndex(hd.endIndex.predecessor())
+            x.text=hd
+        }
+        else{
+            x.text="0"
+        }
+    }
+    @IBAction func yibix(sender: AnyObject) {
+        hc=1/(Double)(x.text!)!
+        x.text="\(hc)"
+    }
+    
     @IBAction func hguiling(sender: AnyObject) {
         x.text="0";
         ha=0;
@@ -236,10 +198,19 @@ class ViewController: UIViewController {
         else
         {
             x.text="\(percent1)";
+        }
+    }
+    /*func check(){
+        if((x.text)!=="0.")
+        {
+            
+        }
+        else
+        {
             
         }
     }
-    
+ */
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

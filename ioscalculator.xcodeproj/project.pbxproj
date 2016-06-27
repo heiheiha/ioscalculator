@@ -14,6 +14,7 @@
 		CF1E004B1D1A970B00237F84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1E00491D1A970B00237F84 /* LaunchScreen.storyboard */; };
 		CF1E00561D1A970B00237F84 /* ioscalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1E00551D1A970B00237F84 /* ioscalculatorTests.swift */; };
 		CF1E00611D1A970B00237F84 /* ioscalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1E00601D1A970B00237F84 /* ioscalculatorUITests.swift */; };
+		CF6074D21D20B9CA00DBDE5B /* h2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF6074D11D20B9CA00DBDE5B /* h2.jpg */; };
 		CF69FD411D1FF5B600FC1FD5 /* hl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF69FD401D1FF5B600FC1FD5 /* hl.jpg */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		CF1E005C1D1A970B00237F84 /* ioscalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ioscalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF1E00601D1A970B00237F84 /* ioscalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ioscalculatorUITests.swift; sourceTree = "<group>"; };
 		CF1E00621D1A970B00237F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF6074D11D20B9CA00DBDE5B /* h2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h2.jpg; sourceTree = "<group>"; };
 		CF69FD401D1FF5B600FC1FD5 /* hl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hl.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +101,7 @@
 		CF1E003F1D1A970B00237F84 /* ioscalculator */ = {
 			isa = PBXGroup;
 			children = (
+				CF6074D11D20B9CA00DBDE5B /* h2.jpg */,
 				CF69FD401D1FF5B600FC1FD5 /* hl.jpg */,
 				CF1E00401D1A970B00237F84 /* AppDelegate.swift */,
 				CF1E00421D1A970B00237F84 /* ViewController.swift */,
@@ -196,6 +199,7 @@
 				TargetAttributes = {
 					CF1E003C1D1A970B00237F84 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = GGGKN3R8R5;
 					};
 					CF1E00501D1A970B00237F84 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -232,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF6074D21D20B9CA00DBDE5B /* h2.jpg in Resources */,
 				CF1E004B1D1A970B00237F84 /* LaunchScreen.storyboard in Resources */,
 				CF69FD411D1FF5B600FC1FD5 /* hl.jpg in Resources */,
 				CF1E00481D1A970B00237F84 /* Assets.xcassets in Resources */,
@@ -405,10 +410,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ioscalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.ioscalculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -416,10 +423,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ioscalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.ioscalculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
