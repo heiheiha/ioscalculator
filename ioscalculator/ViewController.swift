@@ -17,40 +17,94 @@ class ViewController: UIViewController {
     var judgepoint:Bool=false
     @IBOutlet weak var x: UITextField!
     @IBAction func h1(sender: AnyObject) {
-       if x.text!.isEmpty
+        if(x.text!=="0")
         {
             x.text="1"
         }
         else{
             x.text=x.text!+"1"
         }
-        
     }
     @IBAction func h2(sender: AnyObject) {
-        x.text=x.text!+"2"
+        if(x.text!=="0")
+        {
+            x.text="2"
+        }
+        else{
+            x.text=x.text!+"2"
+        }
     }
     @IBAction func h3(sender: AnyObject) {
-       x.text=x.text!+"3"
+        if(x.text!=="0")
+        {
+            x.text="3"
+        }
+        else{
+            x.text=x.text!+"3"
+        }
     }
     @IBAction func h4(sender: AnyObject) {
-        x.text=x.text!+"4"
+        if(x.text!=="0")
+        {
+            x.text="4"
+        }
+        else{
+            x.text=x.text!+"4"
+        }
     }
     @IBAction func h5(sender: AnyObject) {
-        x.text=x.text!+"5"
+        if(x.text!=="0")
+        {
+            x.text="5"
+        }
+        else{
+            x.text=x.text!+"5"
+        }
     }
     @IBAction func h6(sender: AnyObject) {
-        x.text=x.text!+"6"
+        if(x.text!=="0")
+        {
+            x.text="6"
+        }
+        else{
+            x.text=x.text!+"6"
+        }
     }
     @IBAction func h7(sender: AnyObject) {
-        x.text=x.text!+"7"
+        if(x.text!=="0")
+        {
+            x.text="7"
+        }
+        else{
+            x.text=x.text!+"7"
+        }
     }
     @IBAction func h8(sender: AnyObject) {
-        x.text=x.text!+"8"    }
+        if(x.text!=="0")
+        {
+            x.text="8"
+        }
+        else{
+            x.text=x.text!+"8"
+        }
+    }
     @IBAction func h9(sender: AnyObject) {
-        x.text=x.text!+"9"
+        if(x.text!=="0")
+        {
+            x.text="9"
+        }
+        else{
+            x.text=x.text!+"9"
+        }
     }
     @IBAction func h0(sender: AnyObject) {
-        x.text=x.text!+"0"
+        if(x.text!=="0")
+        {
+            x.text="0"
+        }
+        else{
+            x.text=x.text!+"0"
+        }
     }
     @IBAction func hdian(sender: AnyObject) {
         if(judgepoint==false)
@@ -90,7 +144,6 @@ class ViewController: UIViewController {
         switch(flag)
         {
         case 1:
-            
             hc=ha+hb;
             if(hc%1==0)
             {
@@ -104,7 +157,6 @@ class ViewController: UIViewController {
             judgepoint=true;
             break;
         case 2:
-            
             hc=ha-hb;
             if(hc%1==0)
             {
